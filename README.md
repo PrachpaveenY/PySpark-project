@@ -1,11 +1,11 @@
 # PySpark-project (Complete)
 - Project : PySpark Project
-- Tools = Python, PySpark
+- Tools = Python, PySpark, Pandas
 </br>
 
 ### Detail : 
 - Create File : CSV, TXT.
-- Use PySpark : manage data.
+- Use PySpark and Pandas : manage data.
 
 ### Structure :
 ```
@@ -28,7 +28,7 @@
 ```
 
 ## Run project step : 
-- Run PySpark_createData.ipynb
+- Run use.ipynb
 - Run PySpark_Tutorial1.ipynb
 
 
