@@ -1,18 +1,28 @@
 # PySpark-project (Complete)
 - Project : PySpark Project
-- Tools = Python, PySpark, Pandas
+- Tools = Python, PySpark, Pandas, Azure SQL Database
 </br>
 
 ### Detail : 
 - Create File : CSV, TXT.
 - Use PySpark and Pandas : manage data.
+- microsoft azure project : use manage data of Azure SQL Database
 
 ### Structure :
 ```
 📁 PySpark-project
-└── 📁 app
-|   └── 📁 tables                           // All CSV Files ( 12 File )
-|   └── 📄 use.ipynb                        // Main File ( use manage data )
+└── 📁 all project
+|   └── 📁 apache airflow
+|   |
+|   └── 📁 app
+|   |   └── 📁 tables                           // All CSV Files
+|   |   └── 📄 use.ipynb                        // Main File of app ( use manage data )
+|   |
+|   └── 📁 google cloud platform
+|   |
+|   └── 📁 microsoft azure project
+|   |   └── 📄 Azure-sql-database-project.ipynb // Main File of microsoft azure project ( use manage data of Azure SQL Database )
+|   |
 └── 📁 img
 └── 📁 tutorial
 |   └── 📄 HR01.csv                         // Use CSV of tutorial
